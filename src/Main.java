@@ -6,7 +6,8 @@ import java.util.zip.ZipOutputStream;
  * @author Stanislav Rakitov in 2022
  */
 public class Main {
-  private static final String FILE_PATH_PREFIX = "H:\\Games\\savegames\\";
+  private static final String FILE_PATH_PREFIX = "H:" + File.separator + "Games" + File.separator +
+          "savegames" + File.separator;
 
   public static void main(String[] args) {
     // Создать три экземпляра класса GameProgress.
